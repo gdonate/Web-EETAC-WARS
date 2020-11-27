@@ -1,0 +1,166 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box; /*Que estigui tot arrimat als laterals i a dalt*/
+
+}
+
+p{
+color: white;
+display: table-cell;
+padding: 20px;
+}
+
+img{
+ width: 80px;
+ margin: auto;
+
+
+}
+li{
+float: left;
+list-style: none;
+padding: 30px;
+
+
+}
+nav{
+float: right;
+margin-top: 0px;
+margin-right: 0px;
+align-items: center;
+padding: 7px;
+
+}
+a{
+text-decoration: none;
+color: GOLDENROD;
+}
+
+i{
+text-decoration: none;
+color: GOLDENROD;
+}
+button{
+text-decoration: none;
+
+}
+
+li:hover a{
+    color: white;
+}
+header nav a.activo{
+    color: white;
+}
+
+header{
+background-color: #221f1f;
+background-size: cover;
+padding: 30px 10;
+}
+.logotipo{
+margin-left: 50px;
+
+cursor: pointer;
+}
+.logotipo:hover{
+
+    background:rgba(0,0,0, .50);
+    color: black;
+    }
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+header.contenedor{
+display: flex;
+justify-content: space-between;
+aling-items: center;
+}
+/*----------Titulo-------------------*/
+main .foto-inicial .contenedor .titulo{
+    font-size: 40px;
+    color: GOLDENROD;
+    aling-items: center;
+    display: flex;
+    margin-bottom: 1em;
+
+
+}
+main .foto-inicial .contenedor .descripcion{
+    font-size: 25px;
+    color: white;
+    display: flex;
+
+
+}
+
+/*-----------Foto Principal-----------------*/
+.foto-inicial{
+
+    min-height: 35em;
+
+    background: linear-gradient(rgba(0,0,0, .50) 0%, rgba(0,0,0, .50) 100%), url(../img/zelda.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 10em;
+
+}
+
+main .foto-inicial .contenedor .descripcion{
+
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1.75em;
+    max-width: 50%;
+    margin-bottom: 1.25em;
+}
+
+.foto-inicial .boton{
+
+    background: rgba(0,0,0, .50);
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: white;
+    margin-right: 1.25em; /*margen a la derecha */
+    margin-top: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 1.12em;
+    }
+
+.foto-inicial .boton:hover{
+
+    background:white;
+    color: black;
+}
+
+.foto-inicial .boton i{
+
+    margin-right: 1.25em;
+
+}
+
+/*--------Media Queries----------*/
+@media screen and (max-width: 800px){
+header.logotipo{
+
+    margin-bottom: 10px;
+    img-size: 30px;
+}
+header.contenedor{
+    flex-direction: column;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.foto-inicial{
+
+    font-size: 8px
+}
+.foto-inicial .descripcion{
+
+    max-width: 100%;
+}
+
+}
