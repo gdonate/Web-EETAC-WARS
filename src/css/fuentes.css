@@ -8,7 +8,7 @@
 }
 @font-face{
     font-family:American Captain;
-    src:url(fonts/American Captain);
+    src:url(fonts/AmericanCaptain);
 }
 @font-face{
     font-family:Wanted;
@@ -20,7 +20,7 @@
 }
 @font-face{
     font-family:Seagram tfb;
-    src:url(../fuentes/Seagram tfb.ttf);
+    src:url(../fuentes/Seagramtfb.ttf);
 }
 @font-face{
     font-family:CELTG;
@@ -35,7 +35,7 @@
 
 /*-------------------------------------------------*/
 
-a{
+a,b{
     font-family: valorant;
 
 
