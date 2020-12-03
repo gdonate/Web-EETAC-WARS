@@ -21,7 +21,14 @@ header{
     cursor: pointer;
     }
 
-
+li{
+        float: left;
+        list-style: none;
+        padding: 0px;
+        margin-right:10px;
+        margin-top: 10px;
+        
+        }
 .nav{
         float: right;
         margin-right: 60px;
@@ -80,6 +87,7 @@ b:hovor{
 
 h1 {
     text-align: center;
+    font-family: "valorant", monospace;
     font-size: 30px;
     font-weight: 700;
     text-shadow: 0 1px 4px rgba(0,0,0,.2);
@@ -140,11 +148,11 @@ button {
     height: 44px;
     margin-top: 25px;
     padding: 0;
-    background: #009F06FF;
+    background: GOLD;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
     border-radius: 6px;
-    border: 1px solid #00BD06FF;
+    border: 1px solid GOLD;
     -moz-box-shadow:
         0 15px 30px 0 rgba(255,255,255,.25) inset,
         0 2px 7px 0 rgba(0,0,0,.2);
